@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zee Grill — Seafood & Oyster Bar | Toronto's Original Oyster Bar</title>
+  <meta name="description" content="Toronto's original oyster bar since 1981. Fresh East & West Coast oysters, seafood platters, lobster, and classic dishes at 641 Mount Pleasant Road.">
+  <meta name="keywords" content="oyster bar Toronto, seafood restaurant Toronto, raw bar, Mount Pleasant, Zee Grill, fresh oysters, lobster, seafood platter">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Zee Grill — Seafood & Oyster Bar">
+  <meta property="og:description" content="Toronto's original oyster bar since 1981. Fresh oysters, seafood platters & classic dishes on Mount Pleasant Road.">
+  <meta property="og:image" content="images/hero-oysters.jpg">
+  <meta property="og:url" content="https://zeegrill.com">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:locale" content="en_CA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zee Grill — Seafood & Oyster Bar">
+  <meta name="twitter:description" content="Toronto's original oyster bar since 1981.">
+  <meta name="twitter:image" content="images/hero-oysters.jpg">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Zee Grill Seafood & Oyster Bar",
+    "image": "images/hero-oysters.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "641 Mount Pleasant Road",
+      "addressLocality": "Toronto",
+      "addressRegion": "ON",
+      "postalCode": "M4S 2M9",
+      "addressCountry": "CA"
+    },
+    "telephone": "+1-416-484-6428",
+    "servesCuisine": "Seafood",
+    "priceRange": "$$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "17:30",
+        "closes": "22:00"
+      }
+    ],
+    "url": "https://zeegrill.com",
+    "acceptsReservations": "True"
+  }
+  </script>
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230a0a0a' stroke='%23c9a96e' stroke-width='3'/><text x='50' y='68' font-family='Georgia,serif' font-size='52' font-weight='bold' fill='%23c9a96e' text-anchor='middle'>Z</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Raleway:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-content">
+      <div class="preloader-line"></div>
+      <div class="preloader-text">Zee Grill</div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-name">Zee Grill</span>
+        <span class="nav-logo-tagline">Seafood &amp; Oyster Bar</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#rawbar" class="nav-link">Raw Bar</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="https://www.opentable.ca/r/zee-grill-toronto" class="nav-link nav-reserve" target="_blank" rel="noopener">Reserve</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <ul class="mobile-menu-links">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#menu" class="mobile-link">Menu</a></li>
+      <li><a href="#rawbar" class="mobile-link">Raw Bar</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="https://www.opentable.ca/r/zee-grill-toronto" class="mobile-link mobile-reserve" target="_blank" rel="noopener">Reserve a Table</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO SECTION -->
+  <!-- Save: seafood plateau top-down → images/hero-oysters.jpg -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="images/hero-oysters.jpg"
+           onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=1920&q=80'"
+           alt="Seafood plateau with fresh oysters, shrimp, and seasonal accompaniments on crushed ice"
+           class="hero-img"
+           loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">Est. 1981</span>
+      <h1 class="hero-title">Zee Grill</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">Seafood &amp; Oyster Bar</p>
+      <p class="hero-tagline">Toronto's Original Oyster Bar on Mount Pleasant</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        <a href="https://www.opentable.ca/r/zee-grill-toronto" class="btn btn-outline" target="_blank" rel="noopener">Reserve a Table</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-text">Scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <!-- Save: bar interior moody shot → images/bar-interior.jpg -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="about-image-accent"></div>
+          <img src="images/bar-interior.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80'"
+               alt="Zee Grill oyster bar interior with warm industrial lighting and exposed brick">
+        </div>
+        <div class="about-content reveal-right">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">A Legacy of <em>Fresh Seafood</em></h2>
+          <div class="section-divider"></div>
+          <p>Since 1981, Zee Grill has been Toronto's beloved destination for the freshest oysters and finest seafood. Nestled on Mount Pleasant Road in the heart of midtown, we've spent over four decades perfecting the art of seafood dining.</p>
+          <p>Our raw bar features the finest oysters sourced from the Eastern and Western coasts of Canada and the United States, shucked to order and served with care. Every dish tells a story of quality, tradition, and passion for the sea.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="43">0</span>
+              <span class="stat-label">Years of Excellence</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="1981">0</span>
+              <span class="stat-label">Established</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARALLAX QUOTE DIVIDER -->
+  <!-- Save: bar interior or any moody shot → images/parallax-bar.jpg -->
+  <section class="parallax-section" aria-label="Quote">
+    <div class="parallax-bg">
+      <img src="images/bar-interior.jpg"
+           onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920&q=80'"
+           alt="" role="presentation">
+    </div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+      <span class="quote-mark" aria-hidden="true">&#10077;</span>
+      <blockquote>The sea, once it casts its spell, holds one in its net of wonder forever.</blockquote>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="menu section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Menu</span>
+        <h2 class="section-title">Savour the <em>Sea</em></h2>
+        <p class="section-desc">Carefully crafted dishes that celebrate the ocean's finest offerings</p>
+      </div>
+      <div class="menu-tabs" role="tablist">
+        <button class="menu-tab active" data-tab="appetizers" role="tab" aria-selected="true" aria-controls="panel-appetizers">Appetizers</button>
+        <button class="menu-tab" data-tab="mains" role="tab" aria-selected="false" aria-controls="panel-mains">Mains</button>
+        <button class="menu-tab" data-tab="wines" role="tab" aria-selected="false" aria-controls="panel-wines">Wine &amp; Cocktails</button>
+        <button class="menu-tab" data-tab="desserts" role="tab" aria-selected="false" aria-controls="panel-desserts">Desserts</button>
+      </div>
+      <div class="menu-panels">
+        <!-- APPETIZERS -->
+        <div class="menu-panel active" id="panel-appetizers" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Grilled Calamari</span><span class="menu-item-price">$19</span></div><p class="menu-item-desc">Tender calamari, lightly grilled, served with house-made tangy dipping sauces</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Tuna Tartare</span><span class="menu-item-price">$22</span></div><p class="menu-item-desc">Fresh ahi tuna, avocado, wakame salad, sesame, crispy wonton</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Shrimp Cocktail</span><span class="menu-item-price">$21</span></div><p class="menu-item-desc">Six large tiger shrimp, classic cocktail sauce, fresh lemon</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Seafood Chowder</span><span class="menu-item-price">$16</span></div><p class="menu-item-desc">New England-style chowder with clams, shrimp, and market fish</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Mussel Salad</span><span class="menu-item-price">$18</span></div><p class="menu-item-desc">Prince Edward Island mussels, white wine, garlic, fresh herbs</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Jonah Crab Salad</span><span class="menu-item-price">$24</span></div><p class="menu-item-desc">Hand-picked crab meat, citrus vinaigrette, microgreens, avocado</p></div>
+          </div>
+        </div>
+        <!-- MAINS -->
+        <div class="menu-panel" id="panel-mains" role="tabpanel" hidden>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Roasted Half Lobster</span><span class="menu-item-price">$48</span></div><p class="menu-item-desc">Atlantic lobster, drawn butter, seasonal vegetables, hand-cut frites</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Seared Ahi Tuna</span><span class="menu-item-price">$38</span></div><p class="menu-item-desc">Sesame-crusted, rare centre, wasabi aioli, pickled ginger, soy reduction</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Lobster Roll</span><span class="menu-item-price">$34</span></div><p class="menu-item-desc">Fresh lobster, light mayo, celery, chives, buttered brioche roll, frites</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Pan-Seared Bay Scallops</span><span class="menu-item-price">$42</span></div><p class="menu-item-desc">Diver scallops, cauliflower purée, brown butter, capers, lemon</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Daily Market Fish</span><span class="menu-item-price">MP</span></div><p class="menu-item-desc">Chef's selection, prepared to your preference, seasonal accompaniments</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Fish &amp; Chips</span><span class="menu-item-price">$26</span></div><p class="menu-item-desc">Beer-battered haddock, hand-cut frites, coleslaw, tartar sauce</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Steak Frites</span><span class="menu-item-price">$44</span></div><p class="menu-item-desc">8oz AAA striploin, herb butter, hand-cut frites, market greens</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Seafood Linguine</span><span class="menu-item-price">$36</span></div><p class="menu-item-desc">Shrimp, mussels, clams, cherry tomatoes, white wine, fresh herbs</p></div>
+          </div>
+        </div>
+        <!-- WINE & COCKTAILS -->
+        <div class="menu-panel" id="panel-wines" role="tabpanel" hidden>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Chablis, Domaine Laroche</span><span class="menu-item-price">$16 / $62</span></div><p class="menu-item-desc">Crisp Burgundy white, mineral notes, classic oyster pairing</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Sancerre, Pascal Jolivet</span><span class="menu-item-price">$18 / $72</span></div><p class="menu-item-desc">Loire Valley sauvignon blanc, citrus, bright acidity</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Muscadet Sèvre et Maine</span><span class="menu-item-price">$14 / $54</span></div><p class="menu-item-desc">Bone-dry, briny, the quintessential shellfish wine</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Veuve Clicquot Brut NV</span><span class="menu-item-price">$24 / $120</span></div><p class="menu-item-desc">Full-bodied champagne, ideal for celebrations</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Classic Martini</span><span class="menu-item-price">$17</span></div><p class="menu-item-desc">Tanqueray, dry vermouth, lemon twist or olive</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Oyster Shooter</span><span class="menu-item-price">$12</span></div><p class="menu-item-desc">Fresh oyster, vodka, cocktail sauce, horseradish, lemon</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Negroni</span><span class="menu-item-price">$18</span></div><p class="menu-item-desc">Campari, gin, sweet vermouth, orange peel</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Espresso Martini</span><span class="menu-item-price">$18</span></div><p class="menu-item-desc">Vodka, Kahlúa, fresh espresso, vanilla</p></div>
+          </div>
+        </div>
+        <!-- DESSERTS -->
+        <div class="menu-panel" id="panel-desserts" role="tabpanel" hidden>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Sticky Toffee Pudding</span><span class="menu-item-price">$14</span></div><p class="menu-item-desc">Our famous house recipe, warm toffee sauce, vanilla bean ice cream</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Crème Brûlée</span><span class="menu-item-price">$13</span></div><p class="menu-item-desc">Classic vanilla custard, caramelized sugar, fresh berries</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Chocolate Fondant</span><span class="menu-item-price">$15</span></div><p class="menu-item-desc">Warm dark chocolate cake, molten centre, salted caramel ice cream</p></div>
+            <div class="menu-item"><div class="menu-item-header"><span class="menu-item-name">Seasonal Sorbet</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Three scoops of house-made seasonal fruit sorbet</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RAW BAR SECTION -->
+  <section id="rawbar" class="rawbar section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Raw Bar</span>
+        <h2 class="section-title">Freshly <em>Shucked</em></h2>
+        <p class="section-desc">A curated selection of East &amp; West Coast oysters, shucked to order and served on ice</p>
+      </div>
+      <div class="rawbar-grid">
+        <!-- Save: seafood plateau top-down → images/rawbar-plateau.jpg -->
+        <div class="rawbar-card reveal-up">
+          <div class="rawbar-card-image">
+            <img src="images/rawbar-plateau.jpg"
+                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1606689048057-4699a7c1d2d0?w=600&q=80'"
+                 alt="Fresh oysters on the half shell arranged on crushed ice with mignonette and cocktail sauce" loading="lazy">
+          </div>
+          <div class="rawbar-card-content">
+            <h3>Oysters on the Half Shell</h3>
+            <p>Daily selection from East &amp; West Coast varieties</p>
+            <span class="rawbar-price">Market Price</span>
+          </div>
+        </div>
+        <!-- Save: two-tier tower close-up → images/rawbar-tower.jpg -->
+        <div class="rawbar-card reveal-up">
+          <div class="rawbar-card-image">
+            <img src="images/rawbar-tower.jpg"
+                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=600&q=80'"
+                 alt="Grand Plateau Royale two-tier seafood tower with lobster, oysters, and caviar" loading="lazy">
+          </div>
+          <div class="rawbar-card-content">
+            <h3>Plateau Royal</h3>
+            <p>12 oysters, mussels, clams, shrimp &amp; lobster</p>
+            <span class="rawbar-price">$89</span>
+          </div>
+        </div>
+        <!-- Save: mussels with garlic bread → images/rawbar-mussels.jpg -->
+        <div class="rawbar-card reveal-up">
+          <div class="rawbar-card-image">
+            <img src="images/rawbar-mussels.jpg"
+                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1565680018093-ebb6e54dbcf4?w=600&q=80'"
+                 alt="PEI mussels in white wine broth with garlic bread" loading="lazy">
+          </div>
+          <div class="rawbar-card-content">
+            <h3>Two-Tier Seafood Tower</h3>
+            <p>Shrimp cocktail, oysters, tuna tartare, crab salad, mussel salad &amp; frites</p>
+            <span class="rawbar-price">$110</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Gallery</span>
+        <h2 class="section-title">A Feast for the <em>Eyes</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <!-- Save: seafood plateau → images/hero-oysters.jpg (reused) -->
+        <div class="gallery-item gallery-item-large reveal-up" data-caption="Seafood Plateau" data-full="images/hero-oysters.jpg" data-fallback="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=1600&q=85">
+          <img src="images/hero-oysters.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80'"
+               alt="Seafood Plateau" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-label">Seafood Plateau</span></div>
+        </div>
+        <!-- Save: seared ahi tuna → images/seared-tuna.jpg -->
+        <div class="gallery-item reveal-up" data-caption="Seared Ahi Tuna" data-full="images/seared-tuna.jpg" data-fallback="https://images.unsplash.com/photo-1553621042-f6e147245754?w=1600&q=85">
+          <img src="images/seared-tuna.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80'"
+               alt="Sesame-crusted seared ahi tuna with wasabi aioli" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-label">Seared Ahi Tuna</span></div>
+        </div>
+        <!-- Save: mussels → images/rawbar-mussels.jpg (reused) -->
+        <div class="gallery-item reveal-up" data-caption="PEI Mussels" data-full="images/rawbar-mussels.jpg" data-fallback="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=85">
+          <img src="images/rawbar-mussels.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80'"
+               alt="PEI Mussels in white wine broth" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-label">PEI Mussels</span></div>
+        </div>
+        <!-- Save: oyster platter → images/rawbar-plateau.jpg (reused) -->
+        <div class="gallery-item reveal-up" data-caption="Fresh Oysters" data-full="images/rawbar-plateau.jpg" data-fallback="https://images.unsplash.com/photo-1544025162-d76694265947?w=1600&q=85">
+          <img src="images/rawbar-plateau.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80'"
+               alt="Fresh oysters on the half shell on crushed ice" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-label">Fresh Oysters</span></div>
+        </div>
+        <!-- Save: bar interior → images/bar-interior.jpg (reused) -->
+        <div class="gallery-item gallery-item-large reveal-up" data-caption="The Oyster Bar" data-full="images/bar-interior.jpg" data-fallback="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=85">
+          <img src="images/bar-interior.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80'"
+               alt="Zee Grill oyster bar with warm lighting and exposed brick" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-label">The Oyster Bar</span></div>
+        </div>
+        <!-- Save: wine bottles → images/wine-selection.jpg -->
+        <div class="gallery-item reveal-up" data-caption="Wine Selection" data-full="images/wine-selection.jpg" data-fallback="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1600&q=85">
+          <img src="images/wine-selection.jpg"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80'"
+               alt="Curated wine selection at Zee Grill" loading="lazy">
+          <div class="gallery-overlay"><span class="gallery-label">Wine Selection</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery viewer" hidden>
+    <div class="lightbox-backdrop"></div>
+    <button class="lightbox-close" aria-label="Close gallery">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox-next" aria-label="Next image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" src="" alt="">
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- RESERVATIONS SECTION -->
+  <!-- Reuses bar interior with heavy overlay -->
+  <section id="reservations" class="reservations">
+    <div class="reservations-bg">
+      <img src="images/bar-interior.jpg"
+           onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80'"
+           alt="" role="presentation">
+    </div>
+    <div class="reservations-overlay"></div>
+    <div class="reservations-content">
+      <span class="section-label">Reservations</span>
+      <h2 class="section-title">Reserve Your <em>Table</em></h2>
+      <p class="section-desc">Join us for an unforgettable evening of fresh seafood and warm hospitality</p>
+      <div class="reservations-info">
+        <div class="reservations-info-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <span>(416) 484-6428</span>
+        </div>
+        <div class="reservations-info-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Tue – Sat: 5:30 PM – 10:00 PM</span>
+        </div>
+      </div>
+      <a href="https://www.opentable.ca/r/zee-grill-toronto" class="btn btn-primary btn-large" target="_blank" rel="noopener">Book on OpenTable</a>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-label">Find Us</span>
+          <h2 class="section-title">Visit <em>Zee Grill</em></h2>
+          <div class="contact-items">
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><p>641 Mount Pleasant Road</p><p>Toronto, ON M4S 2M9</p></div>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <a href="tel:+14164846428">(416) 484-6428</a>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div><p>Tuesday–Saturday 5:30 PM – 10:00 PM</p><p>Sunday &amp; Monday Closed</p></div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.instagram.com/zeegrill/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="https://www.facebook.com/zeegrill" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="https://www.yelp.ca/biz/zee-grill-seafood-restaurant-and-oyster-bar-toronto" target="_blank" rel="noopener" aria-label="Yelp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" fill="none" stroke="currentColor"/><path d="M13 13l6 6M13 13l6-6M13 13l-6 6" stroke="currentColor"/></svg></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-up">
+          <span class="section-label">Get in Touch</span>
+          <p class="contact-form-subtitle">Questions, private events, or special requests</p>
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group"><label for="form-name">Name</label><input type="text" id="form-name" name="name" placeholder="Your name" required></div>
+            <div class="form-group"><label for="form-email">Email</label><input type="email" id="form-email" name="email" placeholder="your@email.com" required></div>
+            <div class="form-group"><label for="form-phone">Phone</label><input type="tel" id="form-phone" name="phone" placeholder="(optional)"></div>
+            <div class="form-group"><label for="form-subject">Subject</label><select id="form-subject" name="subject"><option value="general">General Inquiry</option><option value="event">Private Event</option><option value="party">Large Party</option><option value="feedback">Feedback</option></select></div>
+            <div class="form-group"><label for="form-message">Message</label><textarea id="form-message" name="message" rows="4" placeholder="Your message..." required></textarea></div>
+            <button type="submit" class="btn btn-primary btn-form-submit">Send Message</button>
+          </form>
+          <div class="form-success" id="formSuccess" hidden>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="9 12 12 15 16 10"/></svg>
+            <p>Thank you! We'll be in touch.</p>
+          </div>
+        </div>
+        <div class="contact-map reveal-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.7!2d-79.3888!3d43.7089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b335e07!2sZee+Grill!5e0!3m2!1sen!2sca!4v1" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Zee Grill Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="footer-logo">Zee Grill</span>
+        <span class="footer-tagline-text">Seafood &amp; Oyster Bar</span>
+        <span class="footer-since">Toronto's Original Oyster Bar Since 1981</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#rawbar">Raw Bar</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Zee Grill — Seafood &amp; Oyster Bar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
